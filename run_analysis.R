@@ -19,7 +19,11 @@ download(fileUrl, dest="dataset.zip", mode="wb")
 
 dataDownloaded<-now() #provides data and time of download
 
-unzip ("dataset.zip", exdir = "./data") #extract files, these are the raw data, write to directory data; everyone should have one by now
+if (!file.exists("data")){        #create directory data, if it did not exist already
+  dir.create("data")
+}
+
+unzip ("dataset.zip", exdir = "./data") #extract files, these are the raw data, write to directory data
 
 list.dirs() #get an overview of the directories
 list.files("./data/UCI HAR Dataset") #get an overview of the files

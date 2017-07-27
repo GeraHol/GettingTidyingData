@@ -19,7 +19,11 @@ G. Hol
 ==================================================================
 The purpose of the project is to demonstrate my ability to collect,
 work with, and clean a dataset. This is part of the Coursera course
-Getting & Tidying Data. Then end result of the script is a tidy dataset
+Getting & Tidying Data. The end result of the script is a tidy dataset
+
+Link to the script: 
+https://github.com/GeraHol/GettingTidyingData/blob/master/run_analysis.R
+
 
 For a full description of the assignment, see here 
 https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project
